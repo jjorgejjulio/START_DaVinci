@@ -14,4 +14,7 @@ cd teste1
 
 ->Feito esses arquivos, para rodar utilizei a seguinte linha de comando:
 
+
 lb-run -c x86_64_v2-el9-gcc13-opt DaVinci/v66r3 lbexec (NOME DO MEU ARQUIVO .py) :(NOME DA FUNÇÃO PRESENTE NO .py) (MEU ARQUIVO .yaml).yaml
+
+-> Como resultado, obtive informações de algumas partículas que fazem parte do canal de decaimento explorado
