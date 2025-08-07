@@ -1,0 +1,21 @@
+->Entrar na lxplus
+
+ssh (seu_usuario)@lxplus.cern.ch
+
+
+->Para orgazinar, crie uma pasta
+
+mkdir teste1
+cd teste1
+
+-> Para rodar algo no DaVinci, é preciso de 2 arquivos diferentes:
+   -> Um arquivo (.yaml) onde irá conter informações dos seus dados; se é MC ou dado, qual tipo de dados, quantidade máxima de eventos, qual será o nome da tupla a ser criada...
+   -> Um arquivo (.py) onde irá conter uma função que fará deste a seleção das variáveis até a resconstrução dos seus objetos
+
+->Feito esses arquivos, para rodar utilizei a seguinte linha de comando:
+
+
+lb-run -c x86_64_v2-el9-gcc13-opt *DaVinci/v65r0* lbexec (NOME DO MEU ARQUIVO .py):(NOME DA FUNÇÃO PRESENTE NO .py) (MEU ARQUIVO .yaml).yaml
+   -> *Atenção a versão do DaVinci, a mais atual é v66r3, e não funciona para esses dados utilizados aqui
+
+-> Como resultado, obtive informações de algumas partículas que fazem parte do canal de decaimento explorado
