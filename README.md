@@ -1,4 +1,4 @@
-Primeiros resultados da minha introdução ao software do LHCb DaVinci:
+Primeiros resultados da minha introdução ao software do LHCb DaVinci, seguindo o tutorial: https://lhcb-starterkit-run3.docs.cern.ch/first-analysis-steps/minimal-dv-job/
 
 ->Na primeia etapa utilizei o DaVinci para imprimir as árvores de decaimento armazenadas em um DST. No caso foi o decaimento B0s -> Ds- + pi+.
 
