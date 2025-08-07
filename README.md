@@ -4,4 +4,5 @@ Primeiros resultados da minha introdução ao software do LHCb DaVinci, seguindo
 
 ->Na segunda etapa, utilizando os mesmos dados, gerei uma tupla, contendo as informações cinemáticas básicas das partículas envolvidas no decaimento anterior.
 
-->Na terceira etapa, ainda explorando esses dados utilizei o DaVinci para criar uma Tupla com mais informações das partículas como variáveis do tracker(PID), Variáveis específicas do Bs0 e do Ds-.
+->Na terceira etapa, ainda explorando esses dados utilizei o DaVinci para criar uma Tupla com mais informações das partículas como variáveis do tracker(PID), Variáveis específicas do B0s e do Ds-.
+s
